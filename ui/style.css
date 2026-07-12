@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+.wrap{
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.nav .wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: black;
+    
+}
+.btn{
+    background-color: #1D4ED8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
