@@ -1,0 +1,1 @@
+give me a concept how to do a event details using list
