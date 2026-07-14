@@ -106,24 +106,55 @@
     
 }
 /*price section*/
+.p-title{
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.p-description{
+    font-size: 18px;
+    color: #575757;
+    margin-bottom: 80px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
 .price_tag{
-    text-align: left;
+    text-align: center;
     padding: 100px 20px;
+}
+.price_tag .title{
+    font-size: 36px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 20px;
 }
 .price-cards{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    padding: 80px 20px;
-    margin: 60px auto;
+    max-width: 1200px;
+    margin: 60px auto 100px;
+    text-align: left;
 }
-.price-cards .p-card{
-    background-color: #ffffff;
+.price-cards .pro-price-card{
+    background: #fff;
+    border: 1px solid #e4e4e8;
+    border-radius: 10px;
+    padding: 24px;
+}
+.pro-price-card {
+    background-color: #0D1B2A;
+    color: white;
+    
+}
+.price-card{
+    background-color: #f8f8f8;
     border-radius: 10px;
     padding: 20px;
     text-align: left;
-    border: #b3b3b3 solid 1px;
+    border: #E5E7EB solid 1px;
 }
+
 .price-cards .pro-price-card{
     background-color: #0D1B2A;
     color: white;
@@ -151,26 +182,30 @@
 }
 /*placeholde section*/
 .placeholder-sec{
+    background-color: #adbfff;
     padding: 100px 20px;
     text-align: center;
-    background-color: #EDE9FE;
-    border: dashed 2px #7C3AED
 }
-.placeholder-sec .title{
-    font-size: 63px;
-    font-weight: bold;
-    color: #7C3AED;
+.placeholder-sec .place-title{
+    font-size: 36px;
+    color: #000000;
     margin-bottom: 20px;
 }
-.placeholder-sec .subtitle{
-    font-size: 34px;
-    font-weight: bold;
-    color: #9F67EA;
-    margin-bottom: 80px;
-    margin-left: 25%;
-    margin-right: 25%;
 
+.ed-list{
+    list-style: none;
+    padding: 0;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
 }
+
+.ed-list li{
+    font-size: 16px;
+    padding: 10px 0;
+    border-bottom: 1px solid #e4e4e8;
+}
+
 /*footer section*/
 .footer{
     background-color: #0D1B2A;
