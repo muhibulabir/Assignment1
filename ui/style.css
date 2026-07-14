@@ -41,7 +41,7 @@
 }
 /*hero section*/
 .hero{
-    background-image: url('../assets/banner.jpg');
+    background-image: url('./assets/banner.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -57,8 +57,9 @@
     font-size: 22px;
     color: white;
     margin-bottom: 80px;
-    margin-left: 25%;
-    margin-right: 25%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .hero .h-btn{
     background-color: #1D4ED8;
@@ -136,16 +137,11 @@
     margin: 60px auto 100px;
     text-align: left;
 }
-.price-cards .pro-price-card{
-    background: #fff;
-    border: 1px solid #e4e4e8;
-    border-radius: 10px;
-    padding: 24px;
-}
 .pro-price-card {
     background-color: #0D1B2A;
     color: white;
-    
+    border-radius: 10px;
+    padding: 24px;
 }
 .price-card{
     background-color: #f8f8f8;
@@ -154,14 +150,9 @@
     text-align: left;
     border: #E5E7EB solid 1px;
 }
-
-.price-cards .pro-price-card{
-    background-color: #0D1B2A;
-    color: white;
-}
 .stbtn{
     display: block;
-    margin: 0 auto;
+    margin: 20px auto 0;
     background-color: #ffffff;
     color: black;
     border: black solid 1px;
@@ -176,6 +167,7 @@
     color: white;
     border: none;
     padding: 10px 0;
+    margin-top: 20px;
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
@@ -191,7 +183,6 @@
     color: #000000;
     margin-bottom: 20px;
 }
-
 .ed-list{
     list-style: none;
     padding: 0;
@@ -199,20 +190,17 @@
     margin: 0 auto;
     text-align: left;
 }
-
 .ed-list li{
     font-size: 16px;
     padding: 10px 0;
     border-bottom: 1px solid #e4e4e8;
 }
-
 /*footer section*/
 .footer{
     background-color: #0D1B2A;
     color: white;
     padding: 30px 20px;
 }
-
 .footer .footer-wrap{
     display: flex;
     justify-content: space-between;
@@ -221,13 +209,11 @@
     max-width: 1200px;
     margin: 0 auto;
 }
-
 .footer .copyright{
     font-size: 14px;
     color: #9c9eab;
     margin: 0;
 }
-
 .footer .footer-links{
     display: flex;
     list-style: none;
@@ -235,7 +221,6 @@
     margin: 0;
     padding: 0;
 }
-
 .footer .footer-links a{
     color: #9c9eab;
     text-decoration: none;
