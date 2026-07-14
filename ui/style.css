@@ -41,7 +41,7 @@
 }
 /*hero section*/
 .hero{
-    background-image: url('./assets/banner.jpg');
+    background-image: url('../assets/banner.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -57,9 +57,8 @@
     font-size: 22px;
     color: white;
     margin-bottom: 80px;
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 .hero .h-btn{
     background-color: #1D4ED8;
@@ -107,52 +106,31 @@
     
 }
 /*price section*/
-.p-title{
-    font-size: 36px;
-    color: #000000;
-    margin-bottom: 20px;
-}
-.p-description{
-    font-size: 18px;
-    color: #575757;
-    margin-bottom: 80px;
-    margin-left: 25%;
-    margin-right: 25%;
-}
 .price_tag{
-    text-align: center;
+    text-align: left;
     padding: 100px 20px;
-}
-.price_tag .title{
-    font-size: 36px;
-    font-weight: bold;
-    color: #000000;
-    margin-bottom: 20px;
 }
 .price-cards{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    max-width: 1200px;
-    margin: 60px auto 100px;
-    text-align: left;
+    padding: 80px 20px;
+    margin: 60px auto;
 }
-.pro-price-card {
-    background-color: #0D1B2A;
-    color: white;
-    border-radius: 10px;
-    padding: 24px;
-}
-.price-card{
-    background-color: #f8f8f8;
+.price-cards .p-card{
+    background-color: #ffffff;
     border-radius: 10px;
     padding: 20px;
     text-align: left;
-    border: #E5E7EB solid 1px;
+    border: #b3b3b3 solid 1px;
+}
+.price-cards .pro-price-card{
+    background-color: #0D1B2A;
+    color: white;
 }
 .stbtn{
     display: block;
-    margin: 20px auto 0;
+    margin: 0 auto;
     background-color: #ffffff;
     color: black;
     border: black solid 1px;
@@ -167,33 +145,31 @@
     color: white;
     border: none;
     padding: 10px 0;
-    margin-top: 20px;
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
 }
 /*placeholde section*/
 .placeholder-sec{
-    background-color: #adbfff;
     padding: 100px 20px;
     text-align: center;
+    background-color: #EDE9FE;
+    border: dashed 2px #7C3AED
 }
-.placeholder-sec .place-title{
-    font-size: 36px;
-    color: #000000;
+.placeholder-sec .title{
+    font-size: 63px;
+    font-weight: bold;
+    color: #7C3AED;
     margin-bottom: 20px;
 }
-.ed-list{
-    list-style: none;
-    padding: 0;
-    max-width: 400px;
-    margin: 0 auto;
-    text-align: left;
-}
-.ed-list li{
-    font-size: 16px;
-    padding: 10px 0;
-    border-bottom: 1px solid #e4e4e8;
+.placeholder-sec .subtitle{
+    font-size: 34px;
+    font-weight: bold;
+    color: #9F67EA;
+    margin-bottom: 80px;
+    margin-left: 25%;
+    margin-right: 25%;
+
 }
 /*footer section*/
 .footer{
@@ -201,6 +177,7 @@
     color: white;
     padding: 30px 20px;
 }
+
 .footer .footer-wrap{
     display: flex;
     justify-content: space-between;
@@ -209,11 +186,13 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+
 .footer .copyright{
     font-size: 14px;
     color: #9c9eab;
     margin: 0;
 }
+
 .footer .footer-links{
     display: flex;
     list-style: none;
@@ -221,6 +200,7 @@
     margin: 0;
     padding: 0;
 }
+
 .footer .footer-links a{
     color: #9c9eab;
     text-decoration: none;

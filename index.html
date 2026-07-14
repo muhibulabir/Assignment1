@@ -5,13 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Assignment1</title>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./ui/style.css">
 </head>
 
 <body>
   <header class="navigation">
     <div class="wrap">
-      <img src="../assets/logo.png">
+      <img src="./assets/logo.png">
       <nav>
         <ul>
           <li><a href="">Speakers</a></li>
@@ -35,15 +35,17 @@
     <div class="s-cards">
       <article class="s-card">
         <div class="s-img">
-          <img src="../assets/andrej.png" alt="Speaker 1">
+          <img src="./assets/andrej.png">
         </div>
-        <p class="exprtise">AI / ML</p>
-        <h3 class="s-name">Andrej Karpathy</h3>
-        <p class="s-bio">Pretraining team, Anthropic</p>
+        <div class="s-card-content">
+          <p class="exprtise">AI / ML</p>
+          <h3 class="s-name">Andrej Karpathy</h3>
+          <p class="s-bio">Pretraining team, Anthropic</p>
+        </div>
       </article>
       <article class="s-card">
         <div class="s-img">
-          <img src="../assets/demis.png" alt="Speaker 1">
+          <img src="./assets/demis.png">
         </div>
         <p class="exprtise">Cloud & DevOps</p>
         <h3 class="s-name">Demis Hassabis</h3>
@@ -51,19 +53,23 @@
       </article>
       <article class="s-card">
         <div class="s-img">
-          <img src="../assets/gary.png" alt="Speaker 1">
+          <img src="./assets/gary.png">
         </div>
-        <p class="exprtise">Frontend</p>
-        <h3 class="s-name">Gary Bernhardt</h3>
-        <p class="s-bio">Staff Engineer, Vercel</p>
+        <div class="s-card-content">
+          <p class="exprtise">Frontend</p>
+          <h3 class="s-name">Gary Bernhardt</h3>
+          <p class="s-bio">Staff Engineer, Vercel</p>
+        </div>
       </article>
       <article class="s-card">
         <div class="s-img">
-          <img src="../assets/mustafa.png" alt="Speaker 1">
+          <img src="./assets/mustafa.png">
         </div>
-        <p class="exprtise">Security</p>
-        <h3 class="s-name">Mustafa Al-Bassam</h3>
-        <p class="s-bio">CEO of Microsoft AI</p>
+        <div class="s-card-content">
+          <p class="exprtise">Security</p>
+          <h3 class="s-name">Mustafa Al-Bassam</h3>
+          <p class="s-bio">CEO of Microsoft AI</p>
+        </div>
       </article>
     </div>
   </section>
@@ -134,3 +140,4 @@
     </div>
   </footer>
 </body>
+</html>
