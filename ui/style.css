@@ -182,7 +182,7 @@
 }
 /*placeholde section*/
 .placeholder-sec{
-     background-image: url('../assets/banner.jpg');
+    background-image: url('../assets/banner.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
